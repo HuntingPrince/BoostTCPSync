@@ -13,8 +13,6 @@ Boost TCP Server
 const char SERVER_IP[] = "127.0.0.1";
 const unsigned short PORT_NUMBER = 31400;
 
-
-
 int _tmain(int argc, _TCHAR* argv[])
 {
 	// OS 客 IO 甫 秦林绰 模备
