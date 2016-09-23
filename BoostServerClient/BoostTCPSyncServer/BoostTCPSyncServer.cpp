@@ -24,6 +24,8 @@ int _tmain(int argc, _TCHAR* argv[])
 	// Accept 할 acceptor 설정
 	boost::asio::ip::tcp::acceptor acceptor(io_service, endpoint);
 
+	std::cout << "서버 시작" << std::endl;
+
 	// 소켓의 Accept, read, write 등의 OS 와 통신할 io_service 세팅
 	boost::asio::ip::tcp::socket socket(io_service);
 

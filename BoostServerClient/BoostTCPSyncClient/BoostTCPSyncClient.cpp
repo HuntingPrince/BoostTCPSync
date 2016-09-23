@@ -23,7 +23,7 @@ int _tmain(int argc, _TCHAR* argv[])
 
 	// 소켓 에러 받을 것 설정
 	boost::system::error_code connect_error;
-	boost::asio::ip::tcp::socket socket(io_service, endpoint);
+	boost::asio::ip::tcp::socket socket(io_service);
 	socket.connect(endpoint, connect_error);
 
 	// 동기 연결 이후 처리 
