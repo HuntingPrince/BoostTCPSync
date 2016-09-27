@@ -7,6 +7,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BoostTCPSyncServer", "Boost
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BoostTCPSyncClient", "BoostTCPSyncClient\BoostTCPSyncClient.vcxproj", "{656E8298-6151-47B5-BE85-CEE01C05D88B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BoostTCPAsyncServer", "BoostTCPAsyncServer\BoostTCPAsyncServer.vcxproj", "{5F7B18AB-D8B1-461B-90F2-1CCEA5F9BA39}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BoostTCPAsyncClient", "BoostTCPAsyncClient\BoostTCPAsyncClient.vcxproj", "{8C007F3B-503A-4296-8578-98B00961E5C4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Mixed Platforms = Debug|Mixed Platforms
@@ -42,6 +46,28 @@ Global
 		{656E8298-6151-47B5-BE85-CEE01C05D88B}.Release|Win32.Build.0 = Release|Win32
 		{656E8298-6151-47B5-BE85-CEE01C05D88B}.Release|x64.ActiveCfg = Release|x64
 		{656E8298-6151-47B5-BE85-CEE01C05D88B}.Release|x64.Build.0 = Release|x64
+		{5F7B18AB-D8B1-461B-90F2-1CCEA5F9BA39}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{5F7B18AB-D8B1-461B-90F2-1CCEA5F9BA39}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{5F7B18AB-D8B1-461B-90F2-1CCEA5F9BA39}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5F7B18AB-D8B1-461B-90F2-1CCEA5F9BA39}.Debug|Win32.Build.0 = Debug|Win32
+		{5F7B18AB-D8B1-461B-90F2-1CCEA5F9BA39}.Debug|x64.ActiveCfg = Debug|Win32
+		{5F7B18AB-D8B1-461B-90F2-1CCEA5F9BA39}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{5F7B18AB-D8B1-461B-90F2-1CCEA5F9BA39}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{5F7B18AB-D8B1-461B-90F2-1CCEA5F9BA39}.Release|Win32.ActiveCfg = Release|Win32
+		{5F7B18AB-D8B1-461B-90F2-1CCEA5F9BA39}.Release|Win32.Build.0 = Release|Win32
+		{5F7B18AB-D8B1-461B-90F2-1CCEA5F9BA39}.Release|x64.ActiveCfg = Release|x64
+		{5F7B18AB-D8B1-461B-90F2-1CCEA5F9BA39}.Release|x64.Build.0 = Release|x64
+		{8C007F3B-503A-4296-8578-98B00961E5C4}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{8C007F3B-503A-4296-8578-98B00961E5C4}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{8C007F3B-503A-4296-8578-98B00961E5C4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8C007F3B-503A-4296-8578-98B00961E5C4}.Debug|Win32.Build.0 = Debug|Win32
+		{8C007F3B-503A-4296-8578-98B00961E5C4}.Debug|x64.ActiveCfg = Debug|Win32
+		{8C007F3B-503A-4296-8578-98B00961E5C4}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{8C007F3B-503A-4296-8578-98B00961E5C4}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{8C007F3B-503A-4296-8578-98B00961E5C4}.Release|Win32.ActiveCfg = Release|Win32
+		{8C007F3B-503A-4296-8578-98B00961E5C4}.Release|Win32.Build.0 = Release|Win32
+		{8C007F3B-503A-4296-8578-98B00961E5C4}.Release|x64.ActiveCfg = Release|x64
+		{8C007F3B-503A-4296-8578-98B00961E5C4}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

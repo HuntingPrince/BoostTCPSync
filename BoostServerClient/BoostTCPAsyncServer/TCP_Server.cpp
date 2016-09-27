@@ -12,7 +12,6 @@ TCP_Server::TCP_Server(boost::asio::io_service& io_service)
 
 TCP_Server::~TCP_Server()
 {
-	
 	if (m_pSession != nullptr)
 	{
 		delete m_pSession;
