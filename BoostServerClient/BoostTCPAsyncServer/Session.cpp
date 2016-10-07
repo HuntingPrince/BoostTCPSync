@@ -3,7 +3,7 @@
 
 
 Session::Session(boost::asio::io_service& io_service)
-: m_Socket(io_service)
+: m_Socket(io_service) 	// 소켓의 Accept, read, write 등의 OS 와 통신할 io_service 세팅
 {
 }
 
