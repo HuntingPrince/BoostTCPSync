@@ -3,6 +3,9 @@
 
 #include "stdafx.h"
 
+#include <iostream>
+#include <boost/asio.hpp>
+#include <boost/thread.hpp>
 
 int _tmain(int argc, _TCHAR* argv[])
 {

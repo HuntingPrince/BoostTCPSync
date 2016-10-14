@@ -4,7 +4,7 @@
 #include "stdafx.h"
 #include <iostream>
 #include <boost/asio.hpp>
-
+#include <boost\thread.hpp>
 #include "ChattingServer.h"
 
 const int MAX_SESSION_COUNT = 100;
